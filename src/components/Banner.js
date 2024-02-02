@@ -30,22 +30,21 @@ function Banner() {
   return(
     <div>
         <Swiper
+         id="banner"
           slidesPerView={1.8}
           infinite={true}
           centeredSlides={true}
+          loop={true}
           spaceBetween={50}
           pagination={{
             clickable: true,
           }}
-          initialSlide= {3}
+          initialSlide= {2}
           autoplay= {{
             delay: 3000,
             disableOnInteraction: false,
           }}
-          navigation= {{
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          }}
+          navigation
           modules={[Navigation,Pagination, Autoplay]}
           className="mySwiper"
         >
