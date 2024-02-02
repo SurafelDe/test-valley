@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.swiper-slide.swiper-slide-next {
+  opacity: .6;
+}
+
+.swiper-slide.swiper-slide-prev {
+  opacity: .6;
+}
