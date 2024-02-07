@@ -19,7 +19,7 @@ export default function ItemList(props) {
   return (
     <div className="flex my-10" key={itemData.id}>
       <div style={{ width: '20%', margin: '0 10' }}>
-        <div className="mb-20">
+        <div className="mb-48">
           <div className="text-2xl mb-2 font-medium">{itemData.title}</div>
           <div className="text-xs text-gray-400">{itemData.subtitle}</div>
         </div>
@@ -115,7 +115,7 @@ export default function ItemList(props) {
                         <span>
                           <img src={item.publication.prefaceIconUrl} alt='' className="w-4 h-4 mr-2"/>
                           </span>
-                          <span className='text-xs'>{item.publication.tagsOnDesc[0]}</span>
+                          <span className='text-xs'>{item.publication.preface}</span>
                       </span>
                     ) : (
                       <p></p>

@@ -1,11 +1,11 @@
-import styles from './Layout.module.css'
-import Header from './Header'
-import Banner from '../Banner.js'
+import Header from './Header.jsx'
+import Banner from '../Banner.jsx'
+
 function Layout(props) {
     return <div>
         <Header />
         <Banner />
-        <main className={styles.main}>
+        <main style={{margin: 'auto', maxWidth: '60rem'}}>
             {props.children}
         </main>
     </div>

@@ -37,17 +37,14 @@
   }
 }
 
-.swiper-slide.swiper-slide-next {
+#banner .swiper-slide.swiper-slide-next {
   opacity: .6;
 }
 
-.swiper-slide.swiper-slide-prev {
+#banner .swiper-slide.swiper-slide-prev {
   opacity: .6;
 }
 
-.swiper-slide.swiper-slide-prev {
-  opacity: .6;
-}
 .controller-only {
   width: 86px;
   height: 86px;
